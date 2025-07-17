@@ -1,0 +1,175 @@
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: black;
+}
+body {
+  background: #e7e5c0;
+}
+.panel {
+  position: absolute;
+}
+.title p {
+  font-size: 0.875em;
+}
+.roundedButton {
+  border-radius: 50% !important;
+  width: 45px;
+  height: 45px;
+}
+.buttonGroup {
+  width: 100%;
+}
+.buttonText {
+  display: inline-block;
+  width: 50%;
+}
+#autoRotate {
+  bottom: 7.5%;
+  right: 3%;
+}
+#copyright {
+  bottom: 2%;
+  left: 2%;
+}
+#pattern {
+  top: 7%;
+  left: 3%;
+  width: 33%;
+}
+#title {
+  top: 1%;
+  left: 1%;
+}
+#table {
+  top: 7%;
+  right: 5%;
+  width: 30%;
+}
+#lights {
+  bottom: 7.5%;
+  left: 3%;
+  width: 10%;
+}
+#configTitle {
+  bottom: 5%;
+  left: 5%;
+}
+@media (min-width: 650px) {
+  #lights {
+    bottom: 40%;
+    left: 3%;
+  }
+  #autoRotate {
+    bottom: 55%;
+    right: 1%;
+  }
+}
+@media (min-width: 650px) and (orientation: landscape) {
+  #pattern {
+    left: 67.5%;
+    width: 17.5%;
+  }
+  #table {
+    right: 1%;
+    width: 15%;
+  }
+  #lights {
+    bottom: 50%;
+    left: 3%;
+  }
+  #autoRotate {
+    bottom: 25%;
+    right: 83%;
+  }
+}
+@media (min-width: 768px) {
+  #pattern {
+    width: 20%;
+  }
+  #table {
+    width: 15%;
+  }
+  #lights {
+    bottom: 32.5%;
+    left: 3%;
+  }
+  #autoRotate {
+    bottom: 22.5%;
+    right: 82.5%;
+  }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+  #pattern {
+    left: 67.5%;
+    width: 17.5%;
+  }
+  #table {
+    right: 1%;
+    width: 15%;
+  }
+  #lights {
+    bottom: 45%;
+    left: 3%;
+  }
+  #autoRotate {
+    bottom: 20%;
+    right: 83%;
+  }
+}
+@media (min-width: 992px) {
+  #pattern {
+    top: 10%;
+    left: 3%;
+    width: 17.5%;
+  }
+  #lights {
+    bottom: 35%;
+    left: 3%;
+  }
+  #table {
+    top: 10%;
+    width: 12.5%;
+  }
+  #autoRotate {
+    bottom: 20%;
+    right: 87%;
+  }
+}
+@media (min-width: 1280px) {
+  #table {
+    top: 10%;
+    right: 5%;
+  }
+  #autoRotate {
+    bottom: 25%;
+    right: 89%;
+  }
+  #lights {
+    bottom: 37.5%;
+    left: 3%;
+  }
+}
+@media (min-width: 1680px) {
+  #pattern {
+    width: 8%;
+  }
+  #table {
+    width: 6%;
+    right: 82%;
+  }
+  #autoRotate {
+    right: 91%;
+  }
+}
+@media (min-width: 1920px) {
+  #autoRotate {
+    right: 91.5%;
+  }
+}

@@ -11,7 +11,7 @@ import "@fontsource/roboto/700.css";
 function App() {
   return (
     <>
-      <Canvas camera={{ position: SCENE.cameraPosition }}>
+      <Canvas camera={{position: SCENE.cameraPosition }}>
         <Configurator />
         <OrbitControls
           makeDefault

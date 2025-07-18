@@ -8,7 +8,7 @@ A web based tool 3D product configurator that lets users customize colors, textu
 ## 🛠️ Features
 - 3D visualization using Three.js  
 - Dynamic product customization  
-- Built with TypeScript + Tailwind CSS  
+- Toggling light and dark mode button 
 
 ## 🛍️ Real-World Use Cases
 - **E-commerce**: Let customers visualize their buying products in 3D before purchase.  
@@ -26,7 +26,7 @@ A web based tool 3D product configurator that lets users customize colors, textu
 | Styling      | CSS Modules |
 | Deployment   | Vercel or Github pages|
 
-# 📸 Glimpse of Project:
+## 📸 Glimpse of Project:
 ![Pic-1](images/pic1.png)<br><br>
 ![Pic-2](images/pic2.png)
 
